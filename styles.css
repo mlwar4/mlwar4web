@@ -1,0 +1,282 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9; /* Off-white background */
+  scroll-behavior: smooth;
+}
+
+/* Header Styles */
+header {
+  background-color: #a51218; /* Cherry red */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav li {
+  margin: 0 15px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #d1d1d1; /* Light gray on hover */
+}
+
+/* Hero Section Styles */
+#hero {
+  background-image: linear-gradient(to bottom, #a51218, #7e0d13); /* Gradient cherry red */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+}
+
+/* Main Sections Styles */
+section {
+  padding: 60px 20px;
+}
+
+section h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #a51218; /* Cherry red text */
+}
+
+section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #666; /* Medium gray text */
+}
+
+/* About Section Styles */
+#about {
+  background-color: #fff; /* White background */
+  padding: 40px;
+}
+
+#about h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #a51218; /* Cherry red text */
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+#about img {
+  width: 400px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+#about ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#about li {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Services and Portfolio Section Styles */
+#services ul,
+#portfolio ul,
+#certifications ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#certifications img {
+  width: 550px; /* Adjust the width to your desired smaller size */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures proper block display */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+#services li,
+#portfolio li,
+#certifications li {
+  width: calc(35% - 40px);
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#services li:hover,
+#portfolio li:hover,
+#certifications li:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#services h2,
+#portfolio h2,
+#certifications h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #a51218; /* Cherry red text */
+}
+
+#services p,
+#portfolio p,
+#certifications p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Contact Section Styles */
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  background-color: #fff; /* White input background */
+  color: #333;
+}
+
+#contact button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  background-color: #a51218; /* Cherry red button */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #7e0d13; /* Darker red on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #a51218; /* Cherry red on hover */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  #hero {
+    height: 50vh;
+    padding: 0 10px;
+  }
+  #hero h1 {
+    font-size: 36px;
+  }
+  #hero button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #about ul {
+    flex-direction: column;
+  }
+  #about li {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #hero {
+    height: 30vh;
+  }
+  #hero h1 {
+    font-size: 24px;
+  }
+  #hero button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  #about ul {
+    flex-direction: column;
+  }
+  #about li {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
