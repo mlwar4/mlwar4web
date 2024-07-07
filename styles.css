@@ -201,10 +201,14 @@ section p {
 
 #contact button {
   width: 100%;
-  padding: 12px;
+  background-image: url(x.jpg);
+  padding: 10px;
   margin: 10px 0;
   border: none;
   background-color: #a51218; /* Cherry red button */
+  background-size: cover; /* Adjust as needed to cover the button */
+  background-position: center; /* Adjust position as needed */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
   color: #fff;
   font-size: 16px;
   cursor: pointer;
