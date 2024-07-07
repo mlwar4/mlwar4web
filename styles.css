@@ -200,10 +200,10 @@ section p {
 }
 
 #contact button {
-  width: 100%;
+  width: 10%;
   background-image: url(x.jpg);
-  padding: 10px;
-  margin: 10px 0;
+  padding: 0%;
+  margin: 12px 0;
   border: none;
   background-color: #a51218; /* Cherry red button */
   background-size: cover; /* Adjust as needed to cover the button */
