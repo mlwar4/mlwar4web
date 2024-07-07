@@ -152,7 +152,7 @@ section p {
 #services li,
 #portfolio li,
 #certifications li {
-  width: calc(35% - 40px);
+  width: calc(38% - 40px);
   margin: 20px;
   padding: 20px;
   border: 1px solid #ddd;
